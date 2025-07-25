@@ -1,4 +1,3 @@
-import React from "react";
 import type { TodoItemModal } from "../modal/TodoItemModal";
 
 const TodoItem = ({
@@ -17,7 +16,7 @@ const TodoItem = ({
           className="text-red-500 font-bold text-lg hover:scale-110 transition"
           title="Delete"
         >
-          🗑
+          Delete
         </button>
         <input
           type="checkbox"

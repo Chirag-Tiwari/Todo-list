@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import TodoItem from "./TodoItem";
 import type { TodoModal } from "../modal/todoModal";
 
@@ -65,7 +65,7 @@ const TodoList = () => {
 
       {allCompleted && (
         <div className="text-green-600 font-semibold text-center mb-4">
-          🎉 You’ve completed all tasks!
+          You’ve completed all tasks!
         </div>
       )}
 
